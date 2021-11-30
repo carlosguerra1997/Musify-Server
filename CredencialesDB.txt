@@ -1,5 +1,5 @@
 User: mern_user
-Password: h6G2oTb7ClA3lDWM
+Password: 4SpTqMnmSucVf6jB
 
 // Github push 
 git push https://<GITHUB_ACCESS_TOKEN>@github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git

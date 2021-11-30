@@ -23,5 +23,5 @@ module.exports.saveUser = ( req, res ) => {
     userStored.save();
 
     // Mandamos un mensaje de registro correcto.
-    return res.status(200).send({ ok: true, msg: 'El usuario se ha registrado correctamente' });
+    return res.status(200).json({ ok: true, msg: 'El usuario se ha registrado correctamente' });
 }

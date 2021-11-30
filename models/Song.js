@@ -1,7 +1,7 @@
-const { Schema } = require('mongoose');
+const { Schema, model } = require('mongoose');
 
 const SongSchema = new Schema({
-    number: { type: Schema.Types.String },
+    number: { type: Schema.Types.Number },
     name: { type: Schema.Types.String },
     duration: { type: Schema.Types.String },
     file: { type: Schema.Types.String },
